@@ -36,7 +36,7 @@ In the project folder:
 1. `quit` to Closes any established connection and exits the program. .
 
 ## Running and Error Response Code Spec
-```bash
+
 1. 900 Invalid command. This is printed when the command entered by the user is not one of the accepted commands.
 1. 901 Too many command line options - Only -d is allowed.  This is printed if there are too many command line options.
 1. 902 Invalid command line option - Only -d is allowed.  This is printed if a command line option is not -d. The printing of error 901 takes priority over this message.
